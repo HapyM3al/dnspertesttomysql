@@ -12,3 +12,7 @@ The way this is done is just with bash and nothing over the top, its probably th
 ##  	dnstest.sh
 
 this is slightly edited to my needs from the cleanbrowsing repo - thanks cleanbrowsing :) 
+
+## dns.sql 
+
+this is for mysql dnsfibre/whatevername table and how to create it. 
