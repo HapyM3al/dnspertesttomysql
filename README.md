@@ -9,10 +9,23 @@ I personally use this daily and also for work ive implemented with alerts incase
 
 The way this is done is just with bash and nothing over the top, its probably the long way and better ways of doing this as well. 
 
-##  	dnstest.sh
+## dnstest.sh
 
 this is slightly edited to my needs from the cleanbrowsing repo - thanks cleanbrowsing :) 
 
 ## dns.sql 
 
 this is for mysql dnsfibre/whatevername table and how to create it. 
+
+## dnsperffibre.sh 
+
+file actually going to cron to run. 
+
+example:
+ ```
+*/8 * * * * su root -c "/dir/to/dns/dnscronfibre.sh"
+```
+
+## grafana.sql
+
+this is metrics you want to graph. example: https://imgur.com/a/W4luuTJ
