@@ -8,3 +8,7 @@ pretty simply seeing if any dns issues happening at a given time. This was purel
 I personally use this daily and also for work ive implemented with alerts incase our dns isnt performing up to scratch and of course if a cache "freaks out". 
 
 The way this is done is just with bash and nothing over the top, its probably the long way and better ways of doing this as well. 
+
+##  	dnstest.sh
+
+this is slightly edited to my needs from the cleanbrowsing repo - thanks cleanbrowsing :) 
